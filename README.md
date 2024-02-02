@@ -15,7 +15,7 @@ Source codes for the article "Learning driven three-phase search for the maximum
    ```
    IUC                  //LDTPS binary code for the maximum IUC problem
    ./Instances/Test_Set_I/brock200_2.clq //input instance file brock200_2.clq
-   15                   //the proven maximum IUC number for instance brock200_2.clq
+   15                   //the proven maximum IUC number for the instance brock200_2.clq
    ```
 
    The equivalent maximum MPC problem is then solved by computing the IUC number of the complement graph $\overline{G}$. You need to uncomment lines 57-71 in the `./LDTPS/src/common_func_def.cpp` (see below) and test it as before,
@@ -37,7 +37,7 @@ Source codes for the article "Learning driven three-phase search for the maximum
    }
    ```
 
-3. The source codes of the compared restart simulated annealing (RSA) algorithm and the genetic algorithm (GA) are also available in the directory REF_algorithms, one of the RSA algorithm is tested as below,
+3. The source codes of the compared restart simulated annealing (RSA) algorithm and the genetic algorithm (GA) are also available in the directory REF_algorithms, one of the RSA algorithm is tested as follows,
       ```
    g++ ./REF_algorithms/src/main.cpp ./REF_algorithms/src/common_func_def.cpp ./REF_algorithms/src/local_search.cpp ./REF_algorithms/src/genetic_algorithm.cpp -o ./REF_algorithms/RSA -O3
    ```
@@ -46,7 +46,7 @@ Source codes for the article "Learning driven three-phase search for the maximum
    ```
    among them,  
    ```
-   RSA                  //RSA binary code for the maximum IUC problem, and replaced by GA if needed
+   RSA                  //RSA binary code for the maximum IUC problem, and replaced it by GA if needed
    ./Instances/Test_Set_I/brock200_2.clq //input instance file brock200_2.clq
    15                   //the proven maximum IUC number for instance brock200_2.clq
    ```
