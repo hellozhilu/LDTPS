@@ -37,7 +37,7 @@ Source codes for the article "Learning driven three-phase search for the maximum
    }
    ```
 
-3. The source codes of the compared restart simulated annealing (RSA) algorithm and the genetic algorithm (GA) are also available in the directory RSA and GA, respectively, and tested as before.
+3. The source codes of the compared restart simulated annealing (RSA) algorithm and the genetic algorithm (GA) are also available in the directory REF_algorithms and tested as before.
  
 4. Please make sure that the following paper is cited if you use the codes in your research.    
    Lu, Z., Gao, J., Hao, J. K., Yang, P., & Zhou, L. (2024). Learning driven three-phase search for the maximum independent union of cliques problem. Computers & Operations Research, 106549.
