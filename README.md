@@ -46,7 +46,7 @@ Source codes for the article "Learning driven three-phase search for the maximum
    ```
    among them,  
    ```
-   RSA                  //RSA binary code for the maximum IUC problem, and replaced it by GA if needed
+   RSA                  //RSA binary code for the maximum IUC problem, and replace it with GA if needed
    ./Instances/Test_Set_I/brock200_2.clq //input instance file brock200_2.clq
    15                   //the proven maximum IUC number for the instance brock200_2.clq
    ```
