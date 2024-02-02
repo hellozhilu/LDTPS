@@ -4,14 +4,14 @@ Source code for the article "Learning driven three-phase search for the maximum 
 1. For the source code, you can specify the parameters to match your needs when you execute the code. The code was tested on a computer under Linux operating system. If you have any questions feel free to contact me (Zhi Lu: zhilusix@gmail.com).     
    
    ```
-   g++ ./LDTPS/main.cpp ./LDTPS/common_func_def.cpp ./LDTPS/local_search.cpp -o ./LDTPS/IUC -O3
+   g++ ./LDTPS/src/main.cpp ./LDTPS/src/common_func_def.cpp ./LDTPS/src/local_search.cpp -o ./LDTPS/IUC -O3
    ```
    ```
-   ./LDTPS/IUC.exe ./Instances/Test_Set_I/brock200_2.clq 15
+   ./LDTPS/IUC ./Instances/Test_Set_I/brock200_2.clq 15
    ```
    Among them,  
    ```
-   IUC.exe              //binary code for the maximum IUC problem
+   IUC                  //binary code for the maximum IUC problem
    ./Instances/Test_Set_I/brock200_2.clq //input instance file
    15                   //the proven maximum IUC number for instance brock200_2.clq
    ```
