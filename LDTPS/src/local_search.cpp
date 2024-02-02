@@ -2,7 +2,6 @@
 #include"global_variables.h"
 
 
-
 //Depth-First Search (DFS)
 void dfs(int v, int *sol, int *visited)
 {
