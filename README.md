@@ -1,7 +1,7 @@
 # LDTPS
 Source codes for the article "Learning driven three-phase search for the maximum independent union of cliques"
 
-1. For the source code, you can specify the parameters to match your needs when you execute the code. The code was tested on a computer under the Linux operating system. If you have any questions feel free to contact me (Zhi Lu: zhilusix@gmail.com).     
+1. For all the source codes, you can specify the parameters to match your needs when you execute the codes. The codes were tested on a computer under the Linux operating system. If you have any questions feel free to contact me (Zhi Lu: zhilusix@gmail.com).     
 
 2. The proposed LDTPS algorithm is used to solve both the maximum independent union of cliques (IUC) problem and the maximum multi-partite clique (MPC) problem.
    Specifically, the maximum independent union of cliques (IUC) problem is tested as follows,
@@ -18,7 +18,7 @@ Source codes for the article "Learning driven three-phase search for the maximum
    15                   //the proven maximum IUC number for instance brock200_2.clq
    ```
 
-   and the equivalent maximum MPC problem is then solved by computing the IUC number of the complement graph $\overline{G}$. You need uncomment the lines 57-71 in the `./LDTPS/src/common_func_def.cpp` (see below) and test it as before,
+   and the equivalent maximum MPC problem is then solved by computing the IUC number of the complement graph $\overline{G}$. You need to uncomment lines 57-71 in the `./LDTPS/src/common_func_def.cpp` (see below) and test it as before,
 ```
 //TODO MPC: The MPC number was found by computing the IUC number of the complement graph
 printf("running MPC\n");
