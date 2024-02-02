@@ -19,7 +19,7 @@ Source codes for the article "Learning driven three-phase search for the maximum
    ```
 
    The equivalent maximum MPC problem is then solved by computing the IUC number of the complement graph $\overline{G}$. You need to uncomment lines 57-71 in the `./LDTPS/src/common_func_def.cpp` (see below) and test it as before,
-   ```
+   ```C++
    //TODO MPC: The MPC number was found by computing the IUC number of the complement graph
    printf("running MPC\n");
    for (int i = 0; i < Num_v; i++)
