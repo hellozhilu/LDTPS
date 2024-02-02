@@ -37,7 +37,7 @@ Source codes for the article "Learning driven three-phase search for the maximum
    }
    ```
 
-3. The source codes of the compared restart simulated annealing (RSA) algorithm and the genetic algorithm (GA) are also available in the directory REF_algorithms. One of the RSA algorithm is tested as follows,
+3. The source codes of the compared restart simulated annealing (RSA) algorithm and the genetic algorithm (GA) are also available in the directory `./REF_algorithms`. One of the RSA algorithm is tested as follows,
       ```
    g++ ./REF_algorithms/src/main.cpp ./REF_algorithms/src/common_func_def.cpp ./REF_algorithms/src/local_search.cpp ./REF_algorithms/src/genetic_algorithm.cpp -o ./REF_algorithms/RSA -O3
    ```
