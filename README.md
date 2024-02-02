@@ -11,14 +11,14 @@ Source codes for the article "Learning driven three-phase search for the maximum
    ```
    ./LDTPS/IUC ./Instances/Test_Set_I/brock200_2.clq 15
    ```
-   Among them,  
+   among them,  
    ```
    IUC                  //binary code for the maximum IUC problem
    ./Instances/Test_Set_I/brock200_2.clq //input instance file brock200_2.clq
    15                   //the proven maximum IUC number for instance brock200_2.clq
    ```
 
-   and the equivalent maximum MPC problem is then solved by computing the IUC number of the complement graph $\overline{G}$. You need to uncomment lines 57-71 in the `./LDTPS/src/common_func_def.cpp` (see below) and test it as before,
+   The equivalent maximum MPC problem is then solved by computing the IUC number of the complement graph $\overline{G}$. You need to uncomment lines 57-71 in the `./LDTPS/src/common_func_def.cpp` (see below) and test it as before,
    ```
    //TODO MPC: The MPC number was found by computing the IUC number of the complement graph
    printf("running MPC\n");
