@@ -1,5 +1,5 @@
 # LDTPS
-Source code for the article "Learning driven three-phase search for the maximum independent union of cliques"
+Source codes for the article "Learning driven three-phase search for the maximum independent union of cliques"
 
 1. For the source code, you can specify the parameters to match your needs when you execute the code. The code was tested on a computer under the Linux operating system. If you have any questions feel free to contact me (Zhi Lu: zhilusix@gmail.com).     
 
