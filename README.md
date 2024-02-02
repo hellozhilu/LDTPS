@@ -4,16 +4,16 @@ Source code for the article "Learning driven three-phase search for the maximum 
 1. For the source code, you can specify the parameters to match your needs when you execute the code. The code was tested on a computer under Linux operating system. If you have any questions feel free to contact me (Zhi Lu: zhilusix@gmail.com).     
    
    ```
-   g++ ./src/main.cpp ./src/common_func_def.cpp ./src/local_search.cpp -o ./IUC -O3
+   g++ ./src//LDTPS/main.cpp ./src/common_func_def.cpp ./src/local_search.cpp -o ./IUC -O3
    ```
    ```
-   IUC.exe ./Instances/Test_Set_I/brock200_1.clq 21
+   IUC.exe ./Instances/Test_Set_I/brock200_2.clq 15
    ```
    Among them,  
    ```
-   IUC.exe              //binary code
-   ./Instances/Test_Set_I/brock200_1.clq //input instance file
-   21                   //best-known result for current instance (brock200_1.clq) for the maximum IUC problem
+   IUC.exe              //binary code for the maximum IUC problem
+   ./Instances/Test_Set_I/brock200_2.clq //input instance file
+   15                   //the proven maximum IUC number for instance brock200_2.clq
    ```
   
 2. Please make sure that the following paper is cited if you use the code in your research.    
