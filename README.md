@@ -4,7 +4,7 @@ Source codes for the article "Learning driven three-phase search for the maximum
 1. For all the source codes, you can specify the parameters to match your needs when you execute the codes. The codes were tested on a computer under the Linux operating system. If you have any questions feel free to contact me (Zhi Lu: zhilusix@gmail.com).     
 
 2. The proposed LDTPS algorithm is used to solve both the maximum independent union of cliques (IUC) problem and the maximum multi-partite clique (MPC) problem.
-   Specifically, the maximum independent union of cliques (IUC) problem is tested as follows,
+   Specifically, the maximum IUC problem is tested as follows,
    ```
    g++ ./LDTPS/src/main.cpp ./LDTPS/src/common_func_def.cpp ./LDTPS/src/local_search.cpp -o ./LDTPS/IUC -O3
    ```
